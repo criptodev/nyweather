@@ -5,7 +5,7 @@ $(document).ready(function(){
   //Geolocation Ask
   var lat;
   var lon;
-  if (navigator.geolocation) {
+  //if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
       lat = position.coords.latitude;
       lon = position.coords.longitude;
