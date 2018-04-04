@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(43, 104, 128, 0.8);
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.main {
+  margin: 40px;
+  text-align: center;
+}
+
+.img-container {
+  margin-top: 20px;
+}
+
+span {
+  font-size: 30px;
+}
+
+.conversor {
+  border-color: steelblue;
+  background-color: #0895E4;
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.about {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,5 @@
 //Local Weather (key: 23b25477de35b802330ff617a5d15adf)
 
-$(document).ready(function(){
-
   //Geolocation Ask
   var lat;
   var lon;
@@ -40,5 +38,3 @@ $(document).ready(function(){
       request.send();
 
     });
-
-  });

@@ -7,44 +7,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Minified bootstrap and main.css-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>Document</title>
 </head>
 <body>
-  <div class="container-fluid" id="back-color">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1 id=city><b>City</b></h1>
+  <div class="container">
+    <section class="main">
+      <h1 class="tittle">Sri Lanka</h1>
+      <div class="img-container">
+        <img src="img/icons/weather-clear-min.png" alt="" class="time-img">
       </div>
-      <div class="col-sm-12">
-        <img id="weather-icon" src="" alt="">
+      <div class="stats-contaner">
+        <span class="time">Raining</span><br>
+        <span class="temp">25° Celsius</span>
       </div>
-      <div class="col-sm-12">
-        <p id="state">Weather State</p>
-      </div>
-      <div class="col-sm-12">
-        <p id="temp">Temperature</p>
-      </div>
-      <div class="col-sm-12">
-        <button id="convert" class="btn btn-primary">To fahrenheit</button>
-      </div>
+      <button class="conversor">To fahrenheit</button>
+    </section>
+    <div class="about">
+      <p>nyWeather by <b>criptodev</b></p>
     </div>
-    <p>nyWeather by <a href="#"><b>Criptodev</b></a></p>
   </div>
-  <p id="data"></p>
-  <p id="data2"></p>
-  <p id="data4"></p>
-  <!-- Script tags for jquery, bootstrap and main.js -->
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-  crossorigin="anonymous">
-  </script>
-  <script src="js/main.js" charset="utf-8"></script>
+
+  
+  <script src="js/main.js"></script>
 </body>
 </html>
